@@ -1,0 +1,12 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+    int n, p;
+    cin >> n >> p;
+    p = 100*p;
+    cout << n * p;
+    return 0;
+}
